@@ -1,0 +1,2 @@
+#define SYSKRNL_API __declspec(dllexport)
+#define SYSKRNL_API __declspec(dllimport)

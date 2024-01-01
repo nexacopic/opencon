@@ -1,0 +1,2 @@
+#define OCBOOT_API __declspec(dllexport)
+#define OCBOOT_API __declspec(dllimport)
