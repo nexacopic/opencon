@@ -9,7 +9,7 @@
 
 SoftwareRenderer::SoftwareRenderer(SDL_Window* targetwindow) {
 	AssignedWindow = targetwindow;
-	BackEndRenderer = SDL_CreateRenderer(AssignedWindow, -1, SDL_RENDERER_SOFTWARE); // might swap it out for accelerated at some point
+	BackEndRenderer = SDL_CreateRenderer(AssignedWindow, -1, SDL_RENDERER_ACCELERATED);
 	// hardware renderer will use ogl
 }
 void SoftwareRenderer::SetFrameCallback(void (*frame)(double delta)) // call this before starting the rendering loop

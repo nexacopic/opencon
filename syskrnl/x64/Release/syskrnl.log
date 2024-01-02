@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  dllmain.cpp
+  syskrnl.cpp
+     Creating library C:\Users\newne\Documents\GitHub\opencon\x64\Release\syskrnl.lib and object C:\Users\newne\Documents\GitHub\opencon\x64\Release\syskrnl.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  syskrnl.vcxproj -> C:\Users\newne\Documents\GitHub\opencon\x64\Release\syskrnl.dll
